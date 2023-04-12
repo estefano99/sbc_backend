@@ -23,7 +23,7 @@ conectarDB();
 //   }
 // }
 // app.use(cors(corsOptions));
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://sbc-front.vercel.app' }));
 
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
